@@ -55,7 +55,7 @@ const Gallery: React.FC = () => {
             <div key={`skel-${i}`}>
               <Card sx={{ height: 320, position: 'relative' }}>
                 <Skeleton variant="rectangular" height="100%" sx={{ position: 'absolute', inset: 0, bgcolor: 'rgba(0,0,0,0.1)' }} />
-                <CardContent sx={{ position: 'absolute', bottom: 0, width: '100%', backgroundColor: 'rgba(255,255,255,0.9)', borderTop: '2px solid black' }}>
+                <CardContent sx={{ position: 'absolute', bottom: 0, width: '100%', backgroundColor: 'rgba(0, 0, 0, 0.9)', borderTop: '2px solid black' }}>
                   <Skeleton variant="text" width="60%" height={32} sx={{ bgcolor: 'rgba(0,0,0,0.2)' }} />
                 </CardContent>
               </Card>
@@ -99,7 +99,7 @@ const Gallery: React.FC = () => {
                       bottom: 0,
                       left: 0,
                       right: 0,
-                      background: '#ffffff',
+                      background: '#00000034',
                       borderTop: '3px solid black',
                       p: 2,
                       transform: 'translateY(100%)',
@@ -109,7 +109,7 @@ const Gallery: React.FC = () => {
                       }
                     }}
                   >
-                    <Typography variant="h6" component="div" sx={{ color: 'black', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '1px' }}>
+                    <Typography variant="h6" component="div" sx={{ color: '#ffff', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '1px' }}>
                       {photo.author}
                     </Typography>
                   </Box>

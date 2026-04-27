@@ -9,11 +9,11 @@ const monochromeTheme = createTheme({
       main: '#000000',
     },
     secondary: {
-      main: '#ffffff',
+      main: '#000000',
     },
     background: {
-      default: '#ffffff',
-      paper: 'rgba(255, 255, 255, 0.7)',
+      default: '#000000',
+      paper: 'rgba(0, 0, 0, 0.7)',
     },
   },
   typography: {
@@ -24,7 +24,7 @@ const monochromeTheme = createTheme({
       styleOverrides: {
         root: {
           backdropFilter: 'blur(20px)',
-          backgroundColor: 'rgba(255, 255, 255, 0.65)',
+          backgroundColor: 'rgba(0, 0, 0, 0.65)',
           border: '2px solid #000000',
           boxShadow: '4px 4px 0px #000000',
           borderRadius: 0,
@@ -64,21 +64,20 @@ const App: React.FC = () => {
                 sx={{
                   fontWeight: 900,
                   mb: 1,
-                  color: 'black',
+                  color: '#ffff',
                   letterSpacing: '-2px',
-                  background: '#000000',
+                  background: '#00000017',
                   padding: '10px 30px',
                   border: '4px solid black',
                   boxShadow: '10px 10px 0px black',
                   textTransform: 'uppercase'
                 }}
               >
-                PINTEREST NA MINIMALKAH
+                DASHA REPINA SENIOR FRONTEND DEVELOPER REAL!
               </Typography>
             </Box>
-            <Typography variant="h6" sx={{ fontWeight: 600, mt: 4, color: '#ffffff', backgroundColor: 'rgba(0, 0, 0, 0.8)', padding: '5px 15px', display: 'inline-block', border: '2px solid black' }}>
-              ©️ MAKSIM BALLA
-            </Typography>
+            <Typography variant="h6" sx={{ fontWeight: 600, mt: 4, color: '#ffffff', backgroundColor: 'rgba(0, 0, 0, 0.25)', padding: '5px 15px', display: 'inline-block', border: '2px solid black' }}>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique libero quasi at aperiam corrupti minima voluptate vel deserunt? Optio, totam molestias cupiditate quos quibusdam aperiam a asperiores quod quidem et!            </Typography>
           </Box>
 
           <main>
